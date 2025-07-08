@@ -120,7 +120,7 @@ async function initMap() {
             position: { lat: location.lat, lng: location.lng },
             map: map,
             icon: {
-                url: 'assets/images/logo-completo.png',
+                url: 'logo-completo.png',
                 scaledSize: new google.maps.Size(90, 28),
                 anchor: new google.maps.Point(45, 28)
             },
